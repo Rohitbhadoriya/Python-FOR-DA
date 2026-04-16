@@ -256,6 +256,156 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -422.61580894652224,
+			"y": 4168.981378610302,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:cHiXXpZt6OjnlINo5s7pS",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 966.953125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Questions=> pop(0) slow kyun hota hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "kyunki list andar se array hai. Index 0 remove karne ke baad sare elements "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "ko ek position left shift karna padta hai -0(n) operation "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Method 6. clear kya krta hai"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Poori list empty kr deta hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Jab sara data apko reset krna ho "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "ki aaj ka din kahtam hio gya today list mein sarea data clear ho jayega"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "but yad rkhna database mt krwa dena "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "atwtr87V",
+			"typeName": "shape"
+		},
+		{
 			"x": 581.7115426644104,
 			"y": 1313.4759816430164,
 			"rotation": 0,
@@ -386,12 +536,180 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 515.0923059494639,
-			"y": -1861.7214273882043,
-			"z": 0.8664088078344677,
+			"x": -364.4705684740852,
+			"y": 2778.1840058153884,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:nhUvOQarJtsLivaVoqQlM",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 970.8671875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "interview questions => extend() original list modify krta hai ? nai list banata"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "ha"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aioKYKhV",
+			"typeName": "shape"
+		},
+		{
+			"x": 538.3222818393732,
+			"y": -4260.096445305259,
+			"z": 0.929885315056108,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
+		},
+		{
+			"x": -403.5778429593599,
+			"y": 3032.567717817912,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:5UsbRYwS-M6MXaBSkyJMs",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 884.0078125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "method 3. Insert"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "kisi specific position (index) pe value insert krna ho jab insert use krte "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "syntax list.insert(index,value)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "why => Jab order maintaun karna imp hi jaise koi order priority "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "ho toh 2nd  position add krna ho tab hum iska use kr skte "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "where => VIP customer ka order"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aopZXczl",
+			"typeName": "shape"
 		},
 		{
 			"x": 89.37365451683405,
@@ -519,6 +837,126 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -383.39747382375066,
+			"y": 2492.9639281044374,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Wbwa1sDpqZ-AS1O8BpUPp",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 824.34375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Interview questuins => append() vs extend() mein kya difference"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Ans => append() ek single value add krta hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "extend() ek list ke saare elements add krta hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Method 2. Extend()"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "EK list ke saaare element ko dusri list mein add krte hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "kab use krte h =>  jab ek sath hume multiple values add krni ho "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Where => Zomato mein alg shifts orders combine"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "ahDFzk6G",
+			"typeName": "shape"
+		},
+		{
 			"x": 593.3841845990825,
 			"y": 1391.2493799880472,
 			"rotation": 0,
@@ -564,6 +1002,50 @@
 			},
 			"parentId": "page:page",
 			"index": "aaj6azYl",
+			"typeName": "shape"
+		},
+		{
+			"x": -18.365689159096405,
+			"y": 3334.856339273386,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ApF7qEzbYFHkhKzEtumap",
+			"type": "arrow",
+			"props": {
+				"kind": "arc",
+				"elbowMidPoint": 0.5,
+				"dash": "draw",
+				"size": "m",
+				"fill": "none",
+				"color": "black",
+				"labelColor": "black",
+				"bend": 0,
+				"start": {
+					"x": 0,
+					"y": 0
+				},
+				"end": {
+					"x": 2,
+					"y": 0
+				},
+				"arrowheadStart": "none",
+				"arrowheadEnd": "arrow",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				},
+				"labelPosition": 0.5,
+				"font": "draw",
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "aq9d1F5V",
 			"typeName": "shape"
 		},
 		{
@@ -671,6 +1153,43 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -225.0029910356452,
+			"y": 2883.4947859863037,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:S3FqDdj8TbS4aDk_qR-qf",
+			"type": "geo",
+			"props": {
+				"w": 126.82559492284588,
+				"h": 92.71388318497702,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "ak8cmIIV",
+			"typeName": "shape"
+		},
+		{
 			"x": 529.5118416489796,
 			"y": 664.4991973516397,
 			"rotation": 0,
@@ -713,12 +1232,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:MTgty9FZY9QhGjZKKBfCh",
+			"editingShapeId": "shape:ipzvnIM0za50tYZmBL5Qm",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:MTgty9FZY9QhGjZKKBfCh"
+				"shape:ipzvnIM0za50tYZmBL5Qm"
 			],
-			"hoveredShapeId": "shape:MTgty9FZY9QhGjZKKBfCh",
+			"hoveredShapeId": "shape:ipzvnIM0za50tYZmBL5Qm",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -809,6 +1328,48 @@
 			},
 			"parentId": "page:page",
 			"index": "acvLWjFV",
+			"typeName": "shape"
+		},
+		{
+			"x": -394.8041128267661,
+			"y": 2067.248322878888,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Z0xUqpHttxrxiytVgTlQP",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 978.59375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "slice kya krha tha => orginial array change nhi hota h or list object bnata hai"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "anl9lPjV",
 			"typeName": "shape"
 		},
 		{
@@ -1734,6 +2295,96 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -444.510309989128,
+			"y": 4548.262021383673,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:ipzvnIM0za50tYZmBL5Qm",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1037.9921875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Method 7. Index()"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Value ki first occurreance ka index batata hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Syntax => list.index(value,start,end)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "ZOmato mein pata karna ho ki 10000 ke order kis index pr to hum index use krnge "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "auYqmeCV",
+			"typeName": "shape"
+		},
+		{
 			"x": 599.273563029758,
 			"y": 917.667305130955,
 			"rotation": 0,
@@ -1818,6 +2469,48 @@
 			"typeName": "shape"
 		},
 		{
+			"x": 145.4557890432883,
+			"y": 2918.9500465079273,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:gLTSXND2mcHuZevL2NMbJ",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 566.7109375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "After extend()use pora array change ho gya "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "amaEM2rV",
+			"typeName": "shape"
+		},
+		{
 			"x": 47.29335920902906,
 			"y": 640.2866746634807,
 			"rotation": 0,
@@ -1867,6 +2560,126 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -376.4543022566978,
+			"y": 2280.214330762837,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Te7e7EQKM9MvB3jwGHDp4",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 838.8671875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Methods 1. append()"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "List ke last mein ek value add kr deta hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Syntax => list.append(value)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "why: Jab ek naya item ata hai toh usme end mein add krna hota h"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "where => Zomato mein ek naya order aya toh usey daily orders ki "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "list last mein add kr denge"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "agJSr1QV",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:o2A_tOY27iSTUc0Gga4hD",
+			"type": "arrow",
+			"fromId": "shape:ApF7qEzbYFHkhKzEtumap",
+			"toId": "shape:N_Hxp70c-ksJG8Cv66S_0",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.4456261244457959,
+					"y": 0.1595468366120764
+				},
+				"snap": "none",
+				"terminal": "start"
+			},
+			"typeName": "binding"
+		},
+		{
 			"x": 878.27623400009,
 			"y": 790.2453854660611,
 			"rotation": 0,
@@ -1906,6 +2719,169 @@
 			},
 			"parentId": "page:page",
 			"index": "aIH1IuTV",
+			"typeName": "shape"
+		},
+		{
+			"x": -372.6671177655793,
+			"y": 2892.2864642692603,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:b-hvEwznncrKjjec8s14W",
+			"type": "geo",
+			"props": {
+				"w": 97.25399602135468,
+				"h": 75.87443785839196,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aj0BjyoV",
+			"typeName": "shape"
+		},
+		{
+			"x": -445.5226996190724,
+			"y": 3283.165657130395,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:N_Hxp70c-ksJG8Cv66S_0",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 958.5546875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "orders_restro = [\"Pizza\",\"Sandwich\",\"Garlic Naan\",\"Cold Coffe\"]"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "orders_restro.insert(0,\"Pizza Double Cheese\")"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "orders_restro = [.Space.................\"Pizza\",\"Sandwich\",\"Garlic Naan\",\"Cold Coffe\"]"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "print(orders_restro)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "['Pizza Double Cheese', 'Pizza', 'Sandwich', 'Garlic Naan', 'Cold Coffe']"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "apHeFPnV",
 			"typeName": "shape"
 		},
 		{
@@ -2093,6 +3069,100 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -444.451498973281,
+			"y": 3712.061793344713,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:vZgD4KRZYP0B7reLADqEt",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 687.71875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Method 4. Remove =>"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Pehli occurrence of value ko delete krta h"
+								},
+								{
+									"type": "hardBreak",
+									"attrs": {
+										"dir": "auto"
+									}
+								},
+								{
+									"type": "text",
+									"text": "jab hume koi specific order delete karna hota h "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "(or uski positions bi nhi pta hai)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Zomato = > order cancelled ho gya to use remove krna"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "argg1jtV",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "page:page",
 			"name": "Page 1",
@@ -2273,7 +3343,9 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {},
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle"
+			},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {
@@ -2315,6 +3387,85 @@
 			"id": "instance:instance",
 			"currentPageId": "page:page",
 			"typeName": "instance"
+		},
+		{
+			"x": -63.74106856140594,
+			"y": 2882.043031931375,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:guU1Jxla04ml5ZWiOsSkv",
+			"type": "geo",
+			"props": {
+				"w": 152.34400470824602,
+				"h": 89.38206254338502,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "al4TwyGV",
+			"typeName": "shape"
+		},
+		{
+			"x": -372.1080571978416,
+			"y": 2234.695980021954,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:x_ulwHUh_cZ8xBHjYH1LO",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 271.53125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "AB list ke methods 11 "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "afxoC2iV",
+			"typeName": "shape"
 		},
 		{
 			"x": 336.77773420902906,
@@ -2406,6 +3557,24 @@
 			"parentId": "page:page",
 			"index": "aUABg1dV",
 			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "binding:ds2G2NHogd_9kVAh8fkDI",
+			"type": "arrow",
+			"fromId": "shape:ApF7qEzbYFHkhKzEtumap",
+			"toId": "shape:N_Hxp70c-ksJG8Cv66S_0",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.33041236812303465,
+					"y": 0.45452371860514595
+				},
+				"snap": "none",
+				"terminal": "end"
+			},
+			"typeName": "binding"
 		},
 		{
 			"name": "",
@@ -2590,6 +3759,102 @@
 			},
 			"parentId": "page:page",
 			"index": "aSwgT0SV",
+			"typeName": "shape"
+		},
+		{
+			"x": -429.4798946532794,
+			"y": 3956.194721700832,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:1qifT8491QIDhQ99soMdt",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 1081.9609375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Method Pop 5."
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Kisi index ki value ko remove krta hai aur return bi krta hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "list.pop(index) - Default index -1 last"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "why => Jab value ko nikaalna ho aur use bi use krna ho "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "WHere => Zomato mein last order aya process kiya or uska amount revenue add krna "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "ashwRLxV",
 			"typeName": "shape"
 		},
 		{
