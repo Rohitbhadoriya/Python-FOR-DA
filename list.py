@@ -102,4 +102,57 @@ index2 = zomato_bills.index(899,1)
 print(index2)
 
 
+# count ka use kr rhe h count frequency check krne ke liye use hota h 
+#  mtlb ki kitni bar koi order repeat hua h 
+order_repeat  = ["Pizza","Burger","Sandwich","Garlic Naan", "Pizza", "Burger" , "Pizza"]
+cnt = order_repeat.count("Pizza")
+print(cnt)
 
+# sort() kya ascending\desceding  order mein sort krta h 
+sort_list = [350,999,1399,2340,675]
+sorting = sort_list.sort()
+print(sort_list)
+# print(sorting) yha none a rha to iska ka mtlb kis sort hume kuch return nhi krta h 
+sorting2 = sort_list.sort(reverse=True)
+print(sort_list)
+# sort() orginal list modifiy kr deta hai 
+# ALternate => sorted(list) => nayi sorted return karta hai orginal unchanged rhta h 
+sort_list1 =  [350,999,1399,2340,675]
+new = sorted(sort_list1)
+print("Change list Print:", new)
+print("uncahnged list print",sort_list1)
+
+
+
+# Reverse 
+reverse_bills = [375,775,899,3084]
+# ruse = reverse_bills.reverse()
+# print(ruse)   
+# mtlb ki reverse kuch retrun nhi krta hai 
+reverse_bills.reverse()
+print(reverse_bills)
+
+
+# copy()
+# List ki shallow copy bna kr deta 
+# original list protection dena copy mein change krna 
+# backup?
+# Original data backup rkhna h 
+copy_bills = [450,1300,1490]
+backup_bill = copy_bills.copy()
+backup_bill.append(2340)
+print(copy_bills)
+print(backup_bill)
+# IMP new = original (List) se copy nhi hoti h 
+# Dono same list point krti h
+original = [990,888,555]
+wrong = original
+wrong.append(2340)
+print(original)
+
+
+# Built Funnction inlist 
+print(sum(original)) 
+print(len(original))
+print(max(original))
+print(min(original))
