@@ -532,6 +532,66 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -548.8865349527905,
+			"y": 7012.561100723721,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Ya6kF5QB-CMRyvajp_kur",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 481.984375,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "2 + 2 = 4"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "4 hone kuch system ko time laga hoga"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b02vboNuV",
+			"typeName": "shape"
+		},
+		{
 			"x": 882.4147161405647,
 			"y": 714.284783785127,
 			"rotation": 0,
@@ -680,9 +740,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 1374.9279823781542,
-			"y": -4624.0132957471,
-			"z": 0.9033101487910822,
+			"x": 879.5290981772911,
+			"y": -6503.22435840283,
+			"z": 0.6294797937393255,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -1658,12 +1718,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:us6wl6MJDI9sJ1zkkn3E9",
+			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:us6wl6MJDI9sJ1zkkn3E9"
+				"shape:PVFj59ixsUlFgFrF1zm6N"
 			],
-			"hoveredShapeId": "shape:us6wl6MJDI9sJ1zkkn3E9",
+			"hoveredShapeId": "shape:PVFj59ixsUlFgFrF1zm6N",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -2829,6 +2889,84 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -578.4496363979597,
+			"y": 6237.392255189547,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:FEuGOb0htJkPbOqKhOyz1",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 492.3046875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "LET VAR CONST YHA USE KYU NHI KRTE "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Let X = 10 // can be changed"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "const  = \"Rohit\" // cannot change"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "var = 78 // old way"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b00TcEfHV",
+			"typeName": "shape"
+		},
+		{
 			"x": 62.16401873426901,
 			"y": 579.2225893993598,
 			"rotation": 0,
@@ -3461,6 +3599,258 @@
 			"typeName": "shape"
 		},
 		{
+			"x": -576.2714985710801,
+			"y": 6428.522298118014,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:PVFj59ixsUlFgFrF1zm6N",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 819.71875,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"attrs": {
+						"dir": "auto"
+					},
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Python "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "x = 10"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Python ke andar Dynamic Typing Philosopy hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Python mein variable sirf ek name hai jo object ko piint karta hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Type Fix nhi h "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "x = 10 // x points to integar "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "x = \"Hello\" x potnt to string"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Reason2: Everthing is object "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "python mein kya h sab oject hai Variable just a refrence "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Reason 3: Guido's Design Choice"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Python mein cont kese de "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "PI = 3.14 // capital se constant "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "MAX_ORDERS = 1100"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "agar hum chae to change kr kste hai but techincally not allowed"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Python Const kese banate hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Python mein true const nhi hai "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "convebtion hai ki capital letter use kro = MAX_SIZE = 100"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Lekin techincally change ho skta h "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "b01wnj5IV",
+			"typeName": "shape"
+		},
+		{
 			"meta": {},
 			"id": "binding:kwf0P0lu03hM20rgkx28y",
 			"type": "arrow",
@@ -3967,9 +4357,7 @@
 		{
 			"followingUserId": null,
 			"opacityForNextShape": 1,
-			"stylesForNextShape": {
-				"tldraw:geo": "rectangle"
-			},
+			"stylesForNextShape": {},
 			"brush": null,
 			"scribbles": [],
 			"cursor": {

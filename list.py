@@ -156,3 +156,154 @@ print(sum(original))
 print(len(original))
 print(max(original))
 print(min(original))
+
+
+
+print("="*50)
+print("List Comprehension ")
+print("="*50)
+# Ek line mein list banane ka syntax
+# Expression (Kya krna hai value ke sath)
+# Loop (Kaise loop chalna hai )
+# Conditon (option-Filter krna)
+# Syntax [expression for item in iterable if condition]
+# Whys use 
+# Code Short = 5 line ka code ke line mein a jata
+# Faster => Pythonke internal Optimization se
+# Examples =  From Normal To Compare
+# Questions Sabhi bills mein hundred add kro 
+# Normal Way
+all_bills = [234,761,333,445]
+# f_bills = all_bills + 100
+# print(f_bills)
+# all_newbills = []
+# for bills2 in all_bills:
+#     all_newbills.append(bills2 + 100)
+#     print(all_newbills)
+
+# # List Compare
+# all_newbills = [bills1 + 100 for bills1 in all_bills]
+# print(all_newbills)
+
+# High Bills Dikhao
+# high_bills = []
+# for bills3 in all_bills:
+#     if bills3 > 234:
+#         high_bills.append(bills3)
+#         print(high_bills)
+
+# high_bills = [bills3 for bills3 in all_bills if bills3 > 234]
+# print(high_bills)
+
+# High bills 50 value add kro 
+# result = []
+# for bills3 in all_bills:
+#     if bills3 > 234:
+#         result.append(bills3 + 50)
+#         print(result)
+
+
+result = [bills3 + 50 for bills3 in all_bills if bills3 > 234]
+print(result)
+order_byme = ["Banana","Apple","Green Salad","Pizza","Burger","Sandwich"]
+complimentary_order = [comp1 + "Cold Drink" for comp1 in order_byme ]
+print(complimentary_order)
+print(order_byme)
+
+category = ["High" if bills4 > 333 else "Low" for bills4 in all_bills]
+print(category)
+multiplie = [bills6 * 5 for bills6 in all_bills if bills6 > 234]
+print(multiplie)
+
+
+# REal World
+zomato_orders1 = [450,1200,899,2340]
+with_gst_bill = [bills9 * 1.05 for bills9 in zomato_orders1]
+print(with_gst_bill)
+avg = sum(zomato_orders1) / len(zomato_orders1)
+print(avg)
+above_avg = [bills12 for bills12 in zomato_orders1 if bills12 > avg ]
+print(above_avg)
+
+
+
+# Convert string list to int list
+str_bills  = ["1234","443","9876"]
+int_bills = [int(x) for x in str_bills]
+print(int_bills)
+
+
+# Extract even index item
+
+even_index = [zomato_orders1[i] for i in range(len(zomato_orders1)) if i % 2 == 0]
+print(even_index)
+
+
+# Nested Array ko sahi krna ho 
+matrix = [[1,2,3],[9,8,7],[3,8,6]]
+print(matrix)
+flat1 = [num for row in matrix for num in row]
+print(flat1)
+# List comprehension Fast KYU hai 
+# Jyunki Ye C level pe execute hota hai . Normal 
+# loop Python level pr iteratoion krta mein function call krta hai (append)
+# Comperhension mein append internal optixation se hota hai 
+
+print("="*50)
+print("String Method")
+print("="*50)
+# STRING METHODS KYU KI LIST STRING METHOD BHUT USE HOTE hai 
+# Zomato Data mein customer_names, cities,restro_names sab string hain inka clean krna pdta 
+# STRINGS MOST IMP METHOD FOR DA
+#strip() => Extra space remove kr deta hai => " Rohit  " =>"Rohit"
+# upper()/lower => Case Uniform karo => "bhopal" => "BHOPAL"
+# split => String se list Bnao => "PIZZA,COKE" => ["Pizza","Coke"]
+# join() => List se string banao =>["Pizza","Coke"] => "PIZZA"
+# replace => Replace => "Kumar" =>"Sharma"
+# startwith()/endwith() => Check prefix/suffix => Filter Start with R
+# Ab inke examples dekh lete h 
+# strip() Method
+name = "  Rohit  "
+clean_name = name.strip()
+print(clean_name)
+
+# upper/lower Method
+
+city = 'bhopal'
+print(city.upper())
+
+
+# split() String To list
+food = "Pizza,Naan,Butter Paneer Masala"
+food_items = food.split(',')
+print(food_items)
+
+
+# join() list se string
+food1 = ["Soya CHaap","BPM","Burger"]
+order_Text = " , ".join(food1)
+print(order_Text) 
+
+# replace()
+phone_number = "+91-1234567890"
+clean_phone = phone_number.replace("-","")
+print(clean_phone)
+
+
+# String To List of Characters
+
+word = "ZOMATO"
+chars = list(word)
+print(chars)
+
+
+# Split with mutiliple delimitres useing regex (useful)
+
+import re
+text = "Bhopal,Indore; Pune | Delhi"
+cities = re.split('[,;|]',text)
+# print(cities)
+print([c.strip() for c in  cities])
+
+
+    
