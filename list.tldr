@@ -740,9 +740,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 879.5290981772911,
-			"y": -6503.22435840283,
-			"z": 0.6294797937393255,
+			"x": 925.024158588699,
+			"y": -6728.720187264255,
+			"z": 0.7657492128791766,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -1718,7 +1718,7 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": null,
+			"editingShapeId": "shape:PVFj59ixsUlFgFrF1zm6N",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
 				"shape:PVFj59ixsUlFgFrF1zm6N"
@@ -3610,7 +3610,7 @@
 			"props": {
 				"color": "black",
 				"size": "m",
-				"w": 819.71875,
+				"w": 828.7421875,
 				"font": "draw",
 				"textAlign": "start",
 				"autoSize": true,
@@ -3665,7 +3665,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "Python mein variable sirf ek name hai jo object ko piint karta hai "
+									"text": "Python mein variable sirf ek name hai jo object ko p0int karta hai "
 								}
 							]
 						},
@@ -3701,7 +3701,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "x = \"Hello\" x potnt to string"
+									"text": "x = \"Hello\" x point to string"
 								}
 							]
 						},
@@ -3749,7 +3749,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "Python mein cont kese de "
+									"text": "Python mein const kese de "
 								}
 							]
 						},
@@ -3821,7 +3821,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "convebtion hai ki capital letter use kro = MAX_SIZE = 100"
+									"text": "convention hai ki capital letter use kro = MAX_SIZE = 100"
 								}
 							]
 						},

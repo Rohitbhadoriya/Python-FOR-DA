@@ -300,10 +300,114 @@ print(chars)
 # Split with mutiliple delimitres useing regex (useful)
 
 import re
-text = "Bhopal,Indore; Pune | Delhi"
+text = "Bhopal,Indore;    Pune  | Delhi  "
 cities = re.split('[,;|]',text)
-# print(cities)
+print(cities)
 print([c.strip() for c in  cities])
+
+
+# Real Life Example Food ED Prop FinTech
+raw_customer = [" ROHIT   ","amit","NEHA","   VIKASH        "]
+cleaned = [name.strip().title() for name in raw_customer]
+print(cleaned)
+# HW FOR LOOP SE BI READY KRNA H 
+
+
+# Common Mistakes and Debugging
+
+# Mistakes 1.
+# Wrong Pattern
+original12 = [1,2,3]
+# copy1 = original12
+# copy1.append(4)
+# print(original12)
+
+# Correct
+copy12 = original12.copy()
+copy12.append(4)
+print(original12)
+print(copy12)
+
+
+
+# MISTAKES 2. INDEX OUT OF RANGE
+# WRONG WAY
+bills32 = [332,223,4334,2222,2222]
+# print(bills32[3]). IndexError: list index out of range
+# Coorect Way
+if len(bills32) > 3:
+    print(bills32[3])
+else:
+    print("Index Doesn't exists")
+
+# MISTAKE REMOVE MEIN 3.
+# print(bills32.remove(1200)) ValueError: list.remove(x): x not in list
+# corrrect way
+if 120 in bills32:
+    bills32.remove(120)
+    print("There is no value match")
+else:
+    print(bills32)
+
+
+# MISTAKE SORT() returns NONE
+result45 = bills32.sort()
+# print(result45) None
+# Correct Way
+bills32.sort()
+print(bills32)
+
+
+
+# List as default argument in Function 
+
+def add_order(order2,orders32=[]):
+    orders32.append(order2)
+    return orders32
+print(add_order(100))
+print(add_order(200))
+# iske andar kya hua ki usne same list reused kr li 
+
+# Correct
+
+def add_order1(order3,orders34=None):
+    if orders34 is None:
+        orders34 =[]
+    orders34.append(order3)
+    return  orders34
+print(add_order1(100))
+print(add_order1(200))
+
+
+
+# Mistake 6: Modifying List While ietrating
+for bills34 in bills32:
+    if bills34 > 1000:
+        # bills32.remove(bills34) => Skipr issuee
+
+
+# coreect
+        for bills35 in bills32[:]:
+            if bills35 >1000:
+                bills32.remove(bills35)
+
+
+
+# OR USE LIST 
+bills37 = [bill38 for bill38 in bills32 if bill38 <= 1000]
+print(bills37)
+
+
+# REAL JOB STORy 
+# QUESTion Interview mein puch he lete 
+# Usme ek baar kaam kiya tha Ek din manager ne 5000 orders ka deta hai inme se top 10 
+#  High-vlaue orders nikal kar do 
+high_value = [orderxyz for orderxyz in ordertyt if orderxyz['amount'] > threshold]
+#  Ek line mein kaam ho gya h 
+
+
+#
+
 
 
     
