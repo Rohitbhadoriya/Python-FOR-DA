@@ -306,108 +306,139 @@ print(cities)
 print([c.strip() for c in  cities])
 
 
-# Real Life Example Food ED Prop FinTech
-raw_customer = [" ROHIT   ","amit","NEHA","   VIKASH        "]
-cleaned = [name.strip().title() for name in raw_customer]
-print(cleaned)
-# HW FOR LOOP SE BI READY KRNA H 
 
+# Real DATA Cleaning liye ata 
 
-# Common Mistakes and Debugging
-
-# Mistakes 1.
-# Wrong Pattern
-original12 = [1,2,3]
-# copy1 = original12
-# copy1.append(4)
-# print(original12)
-
-# Correct
-copy12 = original12.copy()
-copy12.append(4)
-print(original12)
-print(copy12)
+new_customer_database = ["    ROHIT  ","amit","NEHA    ","      vikash"]
+#  clean alll names strip spaces + Title case  (For letter capital)
+cleaned_data = [cc.strip().title() for cc in new_customer_database]
+print(cleaned_data)
 
 
 
-# MISTAKES 2. INDEX OUT OF RANGE
-# WRONG WAY
-bills32 = [332,223,4334,2222,2222]
-# print(bills32[3]). IndexError: list index out of range
-# Coorect Way
-if len(bills32) > 3:
-    print(bills32[3])
-else:
-    print("Index Doesn't exists")
+# Common Mistakes Solutions and Debugging
+# WRONG
+og1 = [1,2,3]
+# copyg1 = og1
+# copyg1.append(4)
+# print(og1)
+# ese krne se orhinal list bi change ho rhi h 
 
-# MISTAKE REMOVE MEIN 3.
-# print(bills32.remove(1200)) ValueError: list.remove(x): x not in list
-# corrrect way
-if 120 in bills32:
-    bills32.remove(120)
-    print("There is no value match")
-else:
-    print(bills32)
+# Coorect Way 
+copyg1 = og1.copy()
+print(copyg1)
+copyg1.append(5)
+print(copyg1)
+print(og1)
 
-
-# MISTAKE SORT() returns NONE
-result45 = bills32.sort()
-# print(result45) None
-# Correct Way
-bills32.sort()
-print(bills32)
-
+#Mistake 2. Index Out Range
+billsbhai  = [1200,334,445,556,125,234,386,775]
+# index2 = zomato_bills.index(899,1)
+# index5 = billsbhai.index(899,7)
+# print(index5)
+# this is correct way 
+# if len(billsbhai) > 7:
+#     print(billsbhai[7])
+# else:
+#     print("Does NOT Exist")
 
 
-# List as default argument in Function 
+# Mistake 3 Remove() on non-existent value
+# billsbhai.remove(20000)
+# print(billsbhai)
+#  billsbhai.remove(20000)
+    # ~~~~~~~~~~~~~~~~^^^^^^^
+# ValueError: list.remove(x): x not in list
 
-def add_order(order2,orders32=[]):
-    orders32.append(order2)
-    return orders32
-print(add_order(100))
-print(add_order(200))
-# iske andar kya hua ki usne same list reused kr li 
+# correct way
+if 20000 in billsbhai:
+    billsbhai.remove(20000)
+print(billsbhai)
 
-# Correct
 
-def add_order1(order3,orders34=None):
-    if orders34 is None:
-        orders34 =[]
-    orders34.append(order3)
-    return  orders34
+
+# Mistake 4. sort() return none
+# sortbhai = billsbhai.sort()
+# print(sortbhai)
+# billsbhai.sort()
+# print(billsbhai)
+
+# sorted
+sortedbhai = sorted(billsbhai)
+print(sortedbhai)
+print(billsbhai)
+
+
+# Mistake 5. List as default Argument in function 
+
+def add_order1(forder,forder2=[]):
+    forder2.append(forder)
+    return forder2
 print(add_order1(100))
 print(add_order1(200))
 
+def add_order2(forder,forder3=[]):
+    forder3.append(forder)
+    return forder3
+print(add_order2("*"))
+print(add_order2("**"))
+print(add_order2("***"))
+print(add_order2("****"))
+print(add_order2("*****"))
+# same list resued kr rha h 
+
+def add_order3(forder,forder5=None):
+    if forder5 is None:
+        forder5=[]
+    forder5.append(forder)
+    return forder5
+print(add_order3(300))
+print(add_order3(400))
+print(add_order3(500))
+print(add_order3(600))
+
+# Mistake 6. Modyfying List While iterating
+
+bill_iterate = [123,445,666,799,899,999,1999]
+for bit in bill_iterate:
+    if bit > 666:
+        bill_iterate.remove(bit)
+
+print(bill_iterate)
+#  isme issue skip issue
+
+# Coorect Method
+for bit2 in bill_iterate[:]:
+    if bit2 > 666:
+        bill_iterate.remove(bit2)
+print(bill_iterate)
+
+# OR USE list comperhension 
+finaloutput = [bit3 for bit3 in bill_iterate if bit3 <= 666]
+print("Ye wala print Finaluotput Wale variable", finaloutput)
 
 
-# Mistake 6: Modifying List While ietrating
-for bills34 in bills32:
-    if bills34 > 1000:
-        # bills32.remove(bills34) => Skipr issuee
+
+# Mere pass data a rha  5 ya 6 Thousand
+high_value = [highorder for higorder in ogi if higorder[amount] > threshold]
+# 
 
 
-# coreect
-        for bills35 in bills32[:]:
-            if bills35 >1000:
-                bills32.remove(bills35)
+# Inter View Question 
 
 
+# Q1. List aur Tuple mein Difference kya hota
+# Ans: List mutable hai tuple immutable List ko change kr skte h Tuple ko nhi 
 
-# OR USE LIST 
-bills37 = [bill38 for bill38 in bills32 if bill38 <= 1000]
-print(bills37)
+# Q2. append() or extend() diiference
+# Ans. append ek value add krta hai list mein wo bi last indexing pr, extend ek list ke sare elements add krta hai 
 
-
-# REAL JOB STORy 
-# QUESTion Interview mein puch he lete 
-# Usme ek baar kaam kiya tha Ek din manager ne 5000 orders ka deta hai inme se top 10 
-#  High-vlaue orders nikal kar do 
-high_value = [orderxyz for orderxyz in ordertyt if orderxyz['amount'] > threshold]
-#  Ek line mein kaam ho gya h 
+# Q3. List comperhension kya h
+# Ans. Ek line mein list prepared krna syntax hai. [expression for item in iterable if conditon] ye syntax h . Fast aur readable hote 
 
 
-#
+# Q4. List mein remove(), pop(), del() mein difference ?
+# Q5. sort() sorted()
+# Q6. How to ready shallow copy in list 
+# Ans:  listcopy(), list[:], list(list)
 
-
-
-    
