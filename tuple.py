@@ -66,7 +66,7 @@ print(dup_tuple)
 # print(dup_tuple[5]) # 2
 
 
-# Creating Tuples with 4 metoda and common mistakes
+# Creating Tuples with 4 method and common mistakes
 
 # Normal Tuple
 t1 = (10,20,30)
@@ -323,3 +323,155 @@ print("u:", u)  # u: 98
 # accha esa kyu hua h 
 # esa ish liya hua ki python ne tuple packing and unpacking ka use krke ye swap kr diya h
 
+# Star operator in unpacking
+first, *rest = (1,2,3,4,5)
+print("First:", first) # First: 1
+print("Rest:", rest)   # Rest: [2, 3, 4, 5] list mein aayega kyuki star operator use hua h
+
+first, *middle, last = (10,20,30,40,50)
+print("First:", first)   # First: 10
+print("Middle:", middle) # Middle: [20, 30, 40]
+print("Last:", last)     # Last: 50
+
+#  nested tuple
+nested_tuple = (1,2,(3,4),5)
+print(nested_tuple) # (1, 2, (3, 4), 5)
+# Accessing nested tuple
+print(nested_tuple[2])   # (3, 4)
+print(nested_tuple[2][0]) # 3
+
+# NamedTuple
+# Problem kya phase kr rhe the abi with normal tuple ke sath :
+# t[0],t[1] se smjha nhi atat h ki kya hai 
+# Solution => NamedTuple => Ek aisa tuple jisme hum field names define kr skte h
+from collections import namedtuple
+# Define 
+Student = namedtuple('Student',['name','age','grade'])
+# create
+s1 = Student(name="Sachin", age=25, grade='A')
+s2 = Student(name="Rahul", age=27, grade='B')
+# Access
+print(s1.name) # Sachin
+print(s1.age)  # 25
+print(s1.grade) # A
+print(s2.name) # Rahul
+print(s2.age)  # 27
+print(s2.grade) # B
+
+# Indexing 
+print(s1[0]) # Sachin
+print(s1[1]) # 25
+print(s1[2]) # A
+# Why use NamedTuple
+# Code Readability => Field names se code zyada readable hota h
+# Immutability => NamedTuple immutable hote h, isliye data integrity maintain hoti h
+# Memory Efficient => NamedTuple memory efficient hote h, kyuki wo tuple ke roop me implement hote h
+
+# Common Mistakes
+# Wrong Way
+w = (5)
+print(type(w)) # <class 'int'>  Ye tuple nhi h, ye int h
+# coorect way
+w = (5,)
+print(type(w)) # <class 'tuple'>  Ye tuple h, kyuki comma use hua h
+
+# Tuple ko modify krne ki koshish 
+tp1 = (1,2,3)
+# tp1[1]= 4
+print(tp1) # TypeError: 'tuple' object does not support item assignment
+# tupple mein cange krna  h 
+newtup = (100,) + tp1[1:]
+print(newtup) # (100, 2, 3) Ye naya tuple ban gya h, original tuple me koi change nhi hua h
+print(tp1) # (1, 2, 3) Original tuple unchanged
+
+# List ko tuple smjh lena 
+tup34 = (345,555,[998,778])
+# tup34[2] = [111,112]
+# print(tup34)         
+# TypeError: 'tuple' object does not support item assignment
+tup34[2][0] = 111
+tup34[2][1] = 112
+print(tup34) # (345, 555, [111, 112]) Tuple ke andar list ka reference h, isliye list ke andar ki value change ho skti h,
+
+# Tupel sort krte mistake 
+tupsort = (5,2,8,1,4)
+# tupsort.sort() # AttributeError: 'tuple' object has no attribute 'sort'
+# print(tupsort) # (5, 2, 8, 1, 4) Tuple ke andar sort method nhi h, isliye error aayega
+
+sortedlist = sorted(tupsort)
+print(sortedlist) # [1, 2, 4, 5, 8] sorted() method tuple ko change nhi krta h, wo sorted order me list return krta
+
+# Tuple as function default argument
+# Tuples as default arguments are safe (immutable)
+def process_order(order, statususe=(200,201,400)):
+    return statususe
+# Ye safe h kyuki default argument tuple immutable h, isliye koi bhi galti se change nhi kr skta h
+print(process_order("Pizza")) # (200, 201, 400)
+print(process_order("Burger", (500, 501))) # (500, 501) Custom status code pass kr rhe h
+
+# List as default arguments are unsafe (mutable)
+def wrong_function(data,cache=[]):
+    cache.append(data)
+    return cache
+print(wrong_function("First Call")) # ['First Call']
+print(wrong_function("Second Call")) # ['First Call', 'Second Call']  Ye
+
+
+
+# InterView Questions
+# 1. List vs Tuple mein Diifference kya h
+# Ans=> Lists are mutable and can be modified after creation, while tuples 
+# are immutable . List use squre brackets[], tupel use parenthesis() .
+# List have more method and consume more memory , while tuples are faster and memory-efficient. Lists cannot be used as dict keys, while tuples can be used as dict keys.
+
+# 2. Tuple ko dic key kyu bana skte ho List ko nhi 
+# Ans => Dictionary key must be hashable and immutable. tuples are immutable so theri hash 
+# value never changes, making then valid key . List are mutable and cannot be hashed because their content can change
+
+#3. Single elemenet tuple kaise banta h
+# Ans (5,)
+
+# 5. Tupel immutable h to ye yeh kaise kaam kr gya t=(4,,5,6); t=(9,8,7)
+# Ans: The tuple itself isn't being modified . The variable 
+# t is being reaasigned to point a new tuple. The original tuple(4,5,6) remains unchnaged in memeory 
+
+# 4. Tuple ke andar andar list h to kya lisy ko hum change kr skte h 
+# Ans:  Yes you can mondifiy the mutable object (list) inside a tuole because the tuple only stores refernces not the actual objects.
+# The tuples references remain unchanged, but the mutable object (list) can be modified through its reference. This is a common source of confusion when working with tuples that contain mutable objects.
+
+#6. Tuple faster kyu hoti list se 
+# Ans => Tuples are immutable so python can allocate exact memory with-out over allocating for future growth.
+# List accolate extra spaced for append operations. Tuples als have less overhead in method lookups 
+
+# 7. a, b = b, a kaise kaam krta hai 
+# Ans => python create a tuple (b,a) on the right side (tupel packing), then unpacks 
+# it into vairables a and b (tuple unpacking). This allows for elegant variable swapping without needing 
+# a temporary variable. The immutability of tuples ensures that the original values of a and 
+# b are not modified during the swap process.
+
+# 8. Tuple([1,2,3]) aur (1,2,3) me kya difference h
+# Ans: Both create the same tuple (1,2,3) and ([1,2,3]) convert a list to tuple 
+# while (1,2,3) is a tuple literal. The literal is slightly faster becasue it doesn't involve the overhead of calling
+#  the tuple constructor, but in practice the performance 
+# difference is negligible. 
+# The main difference is in syntax and readability, with the literal being more concise and c
+# commonly used for creating tuples directly.
+
+# 9. tuple compherension hoti h kya python
+# Ans => No Python doesn't have tuple compherenesion . using (x for x in range(5)) create a generator expression not a tuple. 
+# To create a tuple from compherension use tuple(x for x in range(5))
+
+# 10. Real Project me Tubper kan prefer kroge 
+# Ans => When data is fixed (cordinate, RGB COLOR, values, constants)
+# when we returning multiple values from functions, when use dictionary 
+# keys , when performnace is critical and when data intergrity is imp (preveneting accidental changes)
+
+# 11. namedTuple kya hota 
+# Ans=> NamedTuple is a factory function from the collections module that create tuple subclasses with names fields. It provides readable attribute access like point.x instead of point[0]
+#  while maintaing tuple immutability 
+
+# 12. Tuple ka size kaise check krte h
+# Ans => Use sys.getsizeof() function from the sys module to check the size of a tuple in bytes. For example, sys.getsizeof((1,2,3)) will return the memory size of the tuple (1,2,3). Note that the size may vary based on the Python implementation and the contents of the tuple.
+
+# 13. Tuple ke andar tuple h to usme se value kaise access krte h
+# Ans => Use nested indexing to access values in a nested tuple. For example, if you have a tuple like nested_tuple = (1,2,(3,4),5), you can access the inner tuple (3,4) using nested_tuple[2], and then access individual elements like nested_tuple[2][0] for 3 and nested_tuple[2][1] for
