@@ -20,7 +20,7 @@ numbers = list(range(10))
 # Indexing 
 # bills = [450,1200,899,2340,675,1500]
 # print(bills[0])
-# print(bills[2])
+# print(bills[2]) 
 # print(bills[-1])
 # print(bills(-1)) agr aap ese print kroge TypeError: 'list' object is not callable
 

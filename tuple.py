@@ -8,7 +8,7 @@
 # App Developer ho apne isko list mein rkh diya order[1] = 450
 # loss compnany higa kyu ki apne bill ke sath change 
 
-
+ 
 # Tuple Kya hai 
 
 # kaisa bnata hai (4 method)
@@ -30,8 +30,15 @@
 # Interview Questions  
 #  what is Tuple : Tuple ek ordered collection jo immutable hai 
 # Ordered: Jo value phele denge wo phele index pr ayegi (0,1,2)
-#  immutable: Ek bar ban gya kabhi change nhi kr skte , Na Add, Na Remove , Na update  Sir Tuple list ki tarah  array of pointers hain, lekin fixed size IMP : Tuple ke anadar  refrences hote hain, values nhi , isliye agr jab koi refrence mutable objecte (jaise list)
-# ko point kare to wo object change ho skta h lekin tuple ka refrence nhi bndal skta Why Tuples used in python
+#  immutable: Ek bar ban gya kabhi change nhi kr skte , Na Add, Na Remove , 
+# Na update  Sir Tuple list ki tarah 
+#  array of pointers hain, lekin fixed size IMP : Tuple ke anadar 
+#  refrences hote hain, values nhi , isliye agr jab koi refrence mutable objecte (jaise list)
+# ko point kare to wo object change ho skta h lekin tuple ka 
+# refrence nhi bndal skta Why Tuples used in python
+
+
+
 # 3 main reasons 
  
 #  DATA SAFTEY => koi bi galti se change nhi kr skta 
@@ -61,9 +68,7 @@ dup_tuple = (1,2,3,4,5,2,3)
 print(dup_tuple)
 
 # Question => Kya Tuple me duplicate data store kr skte h
-# Answer => Haan store kr skte h but access krne pr wo same index pr aayega
-# print(dup_tuple[1]) # 2
-# print(dup_tuple[5]) # 2
+
 
 
 # Creating Tuples with 4 method and common mistakes
@@ -213,7 +218,7 @@ tup12 = (1,3,5,6,7,8,9)
 # print(tup12) 
 # del tup12[1]
 # print(tup12) # TypeError: 'tuple' object doesn't support item deletion
-
+ 
 # What can changed 
 tup14 = (23,45,[1,2,3],78,98,88)
 # Ye allowed hai 
