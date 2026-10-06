@@ -1,12 +1,12 @@
-# Tuple bHaiya kon h 
+# Tuple bhaiya kon h 
 # Python ka wo immutable superhero jo ek baar ban gya to kabhi badalta nhi h 
 # Jaise ki real life => Apka Best Freind 
 # Tech Real Life => Tum Zomato tumahre pass order aya use order kya h 
 # name : "Shalini", bill₹450, city"Noida"
 # Ab data change nhi hoga kyu ki order confrom ho gya h 
 
-# App Developer ho apne isko list mein rkh diya order[1] = 450
-# loss compnany higa kyu ki apne bill ke sath change 
+# App Developer ho apne isko list mein rakh diya order[1] = 450
+# loss compnany hoga kyu ki apne bill ke sath change 
 
  
 # Tuple Kya hai 
@@ -33,18 +33,18 @@
 #  immutable: Ek bar ban gya kabhi change nhi kr skte , Na Add, Na Remove , 
 # Na update  Sir Tuple list ki tarah 
 #  array of pointers hain, lekin fixed size IMP : Tuple ke anadar 
-#  refrences hote hain, values nhi , isliye agr jab koi refrence mutable objecte (jaise list)
+#  refrences hote hain, values nhi , isliye agr jab koi refrence mutable object (jaise list)
 # ko point kare to wo object change ho skta h lekin tuple ka 
-# refrence nhi bndal skta Why Tuples used in python
+# refrence nhi badal skta Why Tuples used in python
 
 
 
 # 3 main reasons 
  
-#  DATA SAFTEY => koi bi galti se change nhi kr skta 
+#  DATA SAFTEY => koi bhi galti se change nhi kr skta 
 # jaise ki const (Javascript )
 # Performance => List se Fasted,(Fixed Size), no-over-allocation 
-# Hashbale => Dict ki ban skta h (List nhi bna skta h)
+# Hashable => Dict ki ban skta h (List nhi bna skta h)
 
 # Key Prpoperties
 
@@ -205,7 +205,7 @@ print(sorted(sorttup)) # [1,2,4,5,8]
 
 # Section 6 => IMMUATBILITY DEEP DIVE (Sabse important topic)
 # What is immutability => Ek baar tuple ban gya uske andar ki cheezein ko badal nhi skte h
-# 
+
 
 # tup12 = (1,2,3,[4,5],6)
 # print(tup12)

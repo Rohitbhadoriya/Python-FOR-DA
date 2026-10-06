@@ -62,3 +62,112 @@ users_data = {
         "email": "charlie@example.com"
     }
 }
+
+
+
+thisdict={
+    "brand":"Ford",
+    "electric":False,
+    "year":1964,
+    "color":["red","white","blue"]
+}
+print(thisdict["color"])
+print(type(thisdict))
+thisdict["year"] = 2012
+thisdict.update({"year":2028})
+print(thisdict)
+
+thisdict1 = dict(name = "Johna", age = 39)
+print(type(thisdict1))
+print(thisdict1)
+
+thisdict3 = {
+    "name":"Rohit",
+    "age":29
+}
+print("sab kuch ok", thisdict3)
+thisdict3["city"] = "Gwalior"
+
+
+
+thistdict4 = {
+"Brand":"Maruti",
+"model":"Dzire",
+"year":2027
+
+}
+thistdict4.pop("Brand")
+print(thistdict4)
+
+
+
+user = {
+    "name": "Alice", 
+        "role": "Admin", 
+        "status": "Active"
+        }
+
+# Removes and returns the last item
+last_item = user.popitem()
+
+print(last_item)  # Output: ('status', 'Active')
+print(user)       # Output: {'name': 'Alice', 'role': 'Admin'}
+
+
+user1 = {
+"name": "Ram ki amma", 
+"role": "aag lgana"
+}
+
+key, value = user1.popitem()
+
+print(f"Removed Key: {key}")    # Output: Removed Key: role
+print(f"Removed Value: {value}") # Output: Removed Value: Admin
+
+salesItem = {
+    "Brand" : "Jockey",
+    "Category" : "T-Shirt",
+    "Price": 700,
+    "Deilvery":True
+
+}
+print(salesItem)
+salesItem["Price"] = 900
+print(salesItem)
+salesItem["Stock"] = 900
+print(salesItem)
+# del salesItem["Deilvery"]
+print(salesItem)
+# del salesItem
+# print(salesItem)
+# salesItem.clear()
+# print(salesItem)
+salesItem1 = salesItem.copy()
+print("copy mein kya aya h ye bta rha ", salesItem1)
+
+salesitem3 = (salesItem)
+print(salesitem3)
+print(type(salesitem3))
+
+
+# Nested Dict
+myfamily = {
+    "child1":{
+        "name":"Neha",
+        "year": 2007
+    },
+    "child2":{
+        "name":"Riya",
+        "year":2007
+    },
+    "child3":{
+        "name":"Monika",
+        "year":2003
+    }
+}
+print(myfamily)
+print(myfamily["child2"]["name"])
+print(myfamily["child1"]["year"])
+
+
+

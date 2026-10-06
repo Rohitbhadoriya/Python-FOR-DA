@@ -20,13 +20,13 @@
 			"com.tldraw.shape.group": 0,
 			"com.tldraw.shape.text": 4,
 			"com.tldraw.shape.bookmark": 2,
-			"com.tldraw.shape.draw": 4,
-			"com.tldraw.shape.geo": 11,
-			"com.tldraw.shape.note": 12,
+			"com.tldraw.shape.draw": 5,
+			"com.tldraw.shape.geo": 12,
+			"com.tldraw.shape.note": 13,
 			"com.tldraw.shape.line": 5,
 			"com.tldraw.shape.frame": 1,
 			"com.tldraw.shape.arrow": 8,
-			"com.tldraw.shape.highlight": 3,
+			"com.tldraw.shape.highlight": 4,
 			"com.tldraw.shape.embed": 4,
 			"com.tldraw.shape.image": 5,
 			"com.tldraw.shape.video": 4,
@@ -109,9 +109,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 3458.1446113077664,
-			"y": 327.1711878864528,
-			"z": 0.14893215341627905,
+			"x": 2194.7376496110733,
+			"y": 97.62242825176992,
+			"z": 0.3197168655350362,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
@@ -188,7 +188,7 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -510.9766487055565,
+			"x": -634.683817905512,
 			"y": 2411.48100621289,
 			"rotation": 0,
 			"isLocked": false,
@@ -199,11 +199,11 @@
 			"props": {
 				"color": "red",
 				"size": "m",
-				"w": 908.203125,
+				"w": 930.217396168288,
 				"font": "mono",
 				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1,
+				"autoSize": false,
+				"scale": 1.1093472021845887,
 				"richText": {
 					"type": "doc",
 					"attrs": {
@@ -930,8 +930,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 1122,
-				"h": 510
+				"w": 1562,
+				"h": 957
 			},
 			"insets": [
 				false,
@@ -946,7 +946,7 @@
 			"isChatting": false,
 			"highlightedUserIds": [],
 			"isFocused": true,
-			"devicePixelRatio": 2,
+			"devicePixelRatio": 1,
 			"isCoarsePointer": false,
 			"isHoveringCanvas": null,
 			"openMenus": [],

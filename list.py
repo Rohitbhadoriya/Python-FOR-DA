@@ -55,7 +55,7 @@ daily_bills = [450,737,884]
 daily_bills.append(2055)
 print(daily_bills)
 
-# Extend() list ke saare elements ko dossre list ke elements ke add krta h
+# Extend() list ke saare elements ko dusre list ke elements ke add krta h
 morning_orders = [123,789,932]
 evening_orders = [441,576,932]
 morning_orders.extend(evening_orders)
@@ -68,9 +68,9 @@ print(other)
 
 
 # remove use kr rha hu jab hume uski positions nhi pta hoti h 
-pizza_hut = ['Pizza',"Burger","Garlic Naan","Bread"]
+pizza_hut = ['Pizza',"Burger","Garlic Naan","Bread","Burger"]
 pizza_hut.remove('Burger')
-print(pizza_hut)
+print("mein remove hokar chl rha",pizza_hut)
 # if Burger in pizza_hut pizza_hut.remove(Burger)
 
 # pop Kisi index ki value remove krta hai air return bi krta hai 
@@ -347,7 +347,7 @@ billsbhai  = [1200,334,445,556,125,234,386,775]
 # billsbhai.remove(20000)
 # print(billsbhai)
 #  billsbhai.remove(20000)
-    # ~~~~~~~~~~~~~~~~^^^^^^^
+
 # ValueError: list.remove(x): x not in list
 
 # correct way
@@ -420,7 +420,7 @@ print("Ye wala print Finaluotput Wale variable", finaloutput)
 
 
 # Mere pass data a rha  5 ya 6 Thousand
-high_value = [highorder for higorder in ogi if higorder[amount] > threshold]
+# high_value = [highorder for higorder in ogi if higorder[amount] > threshold]
 # 
 
 

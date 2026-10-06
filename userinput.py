@@ -1,0 +1,10 @@
+# name  = input("Enter Your Name ")
+# print(name)
+# print(type (name))
+
+# age = int(input("Enter Your age"))
+# print(age)
+# print(type (age))
+# price = float(input("Enter Price"))
+# print(price)
+var = input("Message")
